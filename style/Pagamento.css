@@ -1,0 +1,262 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    display: flex;
+    width: 800px;
+    margin: 20px auto;
+    background-color: #d6d6d6;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .left-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff; 
+    padding: 20px;
+  }
+  
+  .image-container {
+    padding: 20px;
+    border-radius: 10px; 
+  }
+  
+  .left-side img {
+    max-width: 300px; 
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .right-side {
+    flex: 1;
+    padding: 20px;
+    background-color: #d6d6d6; 
+  }
+  
+  form h2 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  form hr {
+    border: none;
+    border-top: 1px solid #000;
+    margin: 10px 0;
+  }
+  
+  form label {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form .payment-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f28500;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  form .payment-button:hover {
+    background-color: #e07600;
+  }
+  
+  
+
+body {
+    min-height: 100vh;
+    background: #ece9ec;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.left-side {
+    flex: 1;
+    background: #faf9fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+}
+
+.right-side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 28rem;
+    background: #fff;
+    padding: 4rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem 0.8rem rgba(0, 0, 0, 0.15);
+}
+
+p {
+    font-size: 1.3125rem;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 5rem;
+}
+
+label {
+    width: 100%;
+    color: #777;
+    align-self: flex-start;
+    transition: 0.15s linear;
+}
+
+label:focus-within {
+    color: #68229b;
+}
+
+input {
+    font-size: 1.18575rem;
+    color: #404040;
+    padding: 1rem 0 0.5rem 0;
+    width: 100%;
+    border: none;
+    border-color: #f5efef;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    margin-bottom: 3rem;
+    transition: 0.15s linear;
+}
+
+input:focus {
+    outline: none;
+    border-color: #8d3dc8;
+}
+
+.btn-pulsante {
+    background-color: #4CAF50; 
+    border: none;              
+    color: white;              
+    padding: 15px 32px;        
+    text-align: center;      
+    text-decoration: none;     
+    display: inline-block;     
+    font-size: 16px;           
+    cursor: pointer;          
+    border-radius: 12px;      
+    transition: transform 0.3s;
+}
+
+
+.btn-pulsante:hover {
+    animation: pulsar 1s infinite; 
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .payment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .payment-form {
+    position: relative;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  .back-button {
+    position: absolute;
+    top: 120px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    cursor: pointer;
+  }
+  
+  .coroa-icon {
+    width: 50px;
+    height: 50px;
+  }
+  
+  h2 {
+    margin-top: 60px; 
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #FF8C00;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #e07a00;
+  }
+
+  .image-container a {
+    color: white;
+    text-decoration: none                           ;
+}
